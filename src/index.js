@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Router from './Components/Router';
+import MenuRutas from './Components/MenuRutas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <MenuRutas/>
+      <Router/>
+    </div>
   </React.StrictMode>
 );
 
